@@ -96,7 +96,7 @@ package main
 
 import (
         "github.com/bodgit/tsig"
-        "github.com/bodgit/tsig/gss"
+        "github.com/skuratau/tsig/gss"
         "github.com/miekg/dns"
 )
 

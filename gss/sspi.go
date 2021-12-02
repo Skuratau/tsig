@@ -11,8 +11,8 @@ import (
 
 	"github.com/alexbrainman/sspi"
 	"github.com/alexbrainman/sspi/negotiate"
-	"github.com/bodgit/tsig"
-	"github.com/bodgit/tsig/internal/util"
+	"github.com/skuratau/tsig"
+	"github.com/skuratau/tsig/internal/util"
 	"github.com/go-logr/logr"
 	multierror "github.com/hashicorp/go-multierror"
 	"github.com/miekg/dns"

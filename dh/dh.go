@@ -7,7 +7,7 @@ Example client:
                 "fmt"
                 "time"
 
-                "github.com/bodgit/tsig/dh"
+                "github.com/skuratau/tsig/dh"
                 "github.com/miekg/dns"
         )
 
@@ -78,7 +78,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/bodgit/tsig/internal/util"
+	"github.com/skuratau/tsig/internal/util"
 	"github.com/enceve/crypto/dh"
 	multierror "github.com/hashicorp/go-multierror"
 	"github.com/miekg/dns"

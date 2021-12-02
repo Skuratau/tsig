@@ -13,8 +13,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/bodgit/tsig"
-	"github.com/bodgit/tsig/internal/util"
+	"github.com/skuratau/tsig"
+	"github.com/skuratau/tsig/internal/util"
 	"github.com/go-logr/logr"
 	"github.com/jcmturner/gokrb5/v8/client"
 	"github.com/jcmturner/gokrb5/v8/config"

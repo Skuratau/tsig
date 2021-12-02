@@ -9,8 +9,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/bodgit/tsig"
-	"github.com/bodgit/tsig/internal/util"
+	"github.com/skuratau/tsig"
+	"github.com/skuratau/tsig/internal/util"
 	"github.com/go-logr/logr"
 	multierror "github.com/hashicorp/go-multierror"
 	"github.com/miekg/dns"

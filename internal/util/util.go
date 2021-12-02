@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/bodgit/tsig"
+	"github.com/skuratau/tsig"
 	"github.com/jinzhu/copier"
 	"github.com/miekg/dns"
 )
