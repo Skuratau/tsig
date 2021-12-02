@@ -256,7 +256,7 @@ func (c *Client) negotiateContext(host string, cl *client.Client) (string, time.
 		return "", time.Time{}, err
 	}
 
-	apreq, err := spnego.NewKRB5TokenAPREQ(cl, tkt, key, []int{gssapi.ContextFlagMutual, gssapi.ContextFlagReplay, gssapi.ContextFlagInteg}, []int{flags.APOptionMutualRequired})
+	apreq, err := spnego.NewKRB5TokenAPREQ(cl, tkt, key, []int{gssapi.ContextFlagInteg, gssapi.ContextFlagMutual}, []int{gssapi.ContextFlagMutual})
 	if err != nil {
 		return "", time.Time{}, err
 	}
